@@ -1,0 +1,16 @@
+# History files
+.zsh_history
+.bash_history
+*_history
+
+# Secrets
+*.log
+*.key
+*.pem
+
+# Backup files
+*.bak
+
+# Private keys
+id_rsa
+id_ed25519

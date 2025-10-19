@@ -1,0 +1,12 @@
+# Window settings
+[window]
+option_as_alt = "Both"
+opacity = 0.95
+# padding.x = 20
+# padding.y = 20
+
+# Delete line from cursor to left with Cmd+Backspace
+[[keyboard.bindings]]
+key = "Back"
+mods = "Command"
+chars = "\u0015"
