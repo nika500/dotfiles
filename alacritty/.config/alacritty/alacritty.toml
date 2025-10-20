@@ -1,12 +1,29 @@
+[env]
+TERM = "xterm-256color"
+
 # Window settings
 [window]
 option_as_alt = "Both"
-opacity = 0.95
-# padding.x = 20
-# padding.y = 20
+decorations = "buttonless"
+opacity = 0.8
+blur = true
+# padding.x = 10
+# padding.y = 10
 
 # Delete line from cursor to left with Cmd+Backspace
 [[keyboard.bindings]]
 key = "Back"
 mods = "Command"
 chars = "\u0015"
+
+[font]
+# normal.family = "MesloLGS Nerd Font Mono"
+# normal.family = "FiraMono Nerd Font"
+# normal.family = "FiraCode Nerd Font"
+normal.family = "Hack Nerd Font Mono"
+# normal.family = "ComicShannsMono Nerd Font Mono"
+# normal.family = "ComicMono Nerd Font"
+# normal.family = "Comic Code"
+
+# TODO: I don't see any effect when I set size, need to investigate
+# size = 19

@@ -23,6 +23,7 @@ My personal dotfiles managed with [GNU Stow](https://www.gnu.org/software/stow/)
 ## What's Included
 
 - **alacritty** - Terminal emulator config
+- **nvim** - Neovim configuration (LazyVim)
 - **zellij** - Terminal multiplexer config
 - **zsh** - Shell configuration
 
@@ -34,6 +35,7 @@ GNU Stow creates symlinks from this repo to your home directory:
 
 ```
 ~/dotfiles/alacritty/.config/alacritty/ → ~/.config/alacritty/
+~/dotfiles/nvim/.config/nvim/           → ~/.config/nvim/
 ~/dotfiles/zellij/.config/zellij/       → ~/.config/zellij/
 ~/dotfiles/zsh/.zshrc                   → ~/.zshrc
 ```
@@ -53,6 +55,7 @@ To install individual configs:
 ```bash
 cd ~/dotfiles
 stow alacritty  # Install just alacritty
+stow nvim       # Install just nvim
 stow zellij     # Install just zellij
 stow zsh        # Install just zsh
 ```

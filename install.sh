@@ -25,6 +25,7 @@ cd "$(dirname "$0")"
 # Stow packages
 PACKAGES=(
     "alacritty"
+    "nvim"
     "zellij"
     "zsh"
 )
