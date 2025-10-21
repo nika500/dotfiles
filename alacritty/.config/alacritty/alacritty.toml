@@ -20,10 +20,27 @@ chars = "\u0015"
 # normal.family = "MesloLGS Nerd Font Mono"
 # normal.family = "FiraMono Nerd Font"
 # normal.family = "FiraCode Nerd Font"
-normal.family = "Hack Nerd Font Mono"
+# normal.family = "Hack Nerd Font Mono"
 # normal.family = "ComicShannsMono Nerd Font Mono"
 # normal.family = "ComicMono Nerd Font"
+
+# Comic Code - A separate font that can be purchased (https://tosche.net/fonts/comic-code)
+# After purchase, it can be patched into Nerd Font format using nerd-fonts patcher
+# Original (unpatched):
 # normal.family = "Comic Code"
+
+# Comic Code - Patched into Nerd Font
+normal.family = "ComicCode Nerd Font Mono"
+# normal.family = "ComicCodeLigatures Nerd Font Mono"
+# normal.family = "ComicCode Nerd Font"
+# normal.family = "ComicCodeLigatures Nerd Font"
 
 # TODO: I don't see any effect when I set size, need to investigate
 # size = 19
+
+# Line spacing adjustment - use negative values for more compact spacing
+# Adjust the y value to your preference: -1 (slightly compact), -2 (more compact), etc.
+# Note: -4 works well for Comic Code font, but should probably be 0 for other native Nerd Fonts
+[font.offset]
+x = 0
+y = -4
